@@ -5,6 +5,9 @@ import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 import groovy.json.*
 import java.net.URL
+
+def call()
+           {
     
 
             withSonarQubeEnv(installationName: 'sonar_jenkins', credentialsId: 'sonartest') {
