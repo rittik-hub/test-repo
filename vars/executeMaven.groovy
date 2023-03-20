@@ -6,6 +6,10 @@ import groovy.json.JsonOutput
 import groovy.json.*
 import java.net.URL
 
+def call() 
+{
+
 
 sh " mvn clean install"
 
+}
